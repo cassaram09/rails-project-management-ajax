@@ -7,6 +7,8 @@ $(document).ready(function(){
   updateComment();
 });
 
+//comment
+
 class Comment {
   constructor(attributes){
     this.id = attributes.id;
