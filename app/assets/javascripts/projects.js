@@ -3,8 +3,8 @@ $(document).ready(function(){
   getProjects();
 });
 
-class Project {
-  constructor(attributes){
+class Project(attributes) {
+  constructor{
     this.id = attributes.id;
     this.description = attributes.description;
     this.name = attributes.name;
